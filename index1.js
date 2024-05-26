@@ -20,6 +20,5 @@ console.log(strdata);
 //read data directly in original form
 const data1=file.readFileSync("read1.txt","utf-8");
 console.log(data1);
-
 // to delete file 
-//file.unlinkSync("index1.js");
+file.unlinkSync("index1.js");
