@@ -37,6 +37,11 @@ file.unlink("./Ravi/mybio.txt",(error)=>{
     console.log(error);
 });
 
+//to delete folder
+
+file.rmdir("./Ravi",(error)=>{
+    console.log(error);
+});
 
 
 
