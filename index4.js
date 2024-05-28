@@ -1,3 +1,4 @@
+//Import modeles
 const {add,sub,name}=require(`./operator`);
 
 
